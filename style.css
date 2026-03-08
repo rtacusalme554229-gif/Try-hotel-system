@@ -1,0 +1,166 @@
+/* RESET */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* PAGE */
+body{
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: linear-gradient(135deg,#e9eef3,#d3d9df);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+}
+
+/* MAIN CARD */
+.container{
+    background:#fff;
+    width:600px;
+    padding:40px;
+    border-radius:10px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.1);
+    text-align:center;
+}
+
+/* TITLE */
+h1{
+    font-size:28px;
+    margin-bottom:10px;
+    color:#333;
+}
+
+/* PARAGRAPH */
+p{
+    color:#555;
+    margin-bottom:25px;
+    font-size:15px;
+}
+
+/* BUTTON GROUP */
+.buttons{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    margin-top:20px;
+}
+
+/* BUTTON STYLE */
+.btn{
+    text-decoration:none;
+    padding:12px 25px;
+    border-radius:6px;
+    font-size:14px;
+    font-weight:600;
+    transition:0.3s;
+    display:inline-block;
+}
+
+/* LOGIN BUTTON */
+.login{
+    background:#2563eb;
+    color:white;
+}
+
+.login:hover{
+    background:#1d4ed8;
+}
+
+/* REGISTER BUTTON */
+.register{
+    background:#10b981;
+    color:white;
+}
+
+.register:hover{
+    background:#059669;
+}
+
+/* FORM */
+form{
+    margin-top:20px;
+}
+
+/* INPUTS */
+input, select{
+    width:100%;
+    padding:10px;
+    margin:10px 0;
+    border:1px solid #dac8c8;
+    border-radius:6px;
+    font-size:14px;
+}
+
+/* INPUT FOCUS */
+input:focus, select:focus{
+    outline:none;
+    border-color:#2563eb;
+}
+
+/* SUBMIT BUTTON */
+button{
+    width:100%;
+    padding:12px;
+    border:none;
+    border-radius:6px;
+    background:#0f0f0f;
+    color:white;
+    font-size:15px;
+    font-weight:600;
+    cursor:pointer;
+    margin-top:10px;
+    transition:0.3s;
+}
+
+button:hover{
+    background:#0d111a;
+}
+
+/* TABLE */
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:20px;
+}
+
+th{
+    background:#f5f7fa;
+    padding:12px;
+    text-align:left;
+    font-size:14px;
+    border-bottom:2px solid #e5e7eb;
+}
+
+td{
+    padding:12px;
+    border-bottom:1px solid #eee;
+    font-size:14px;
+}
+
+/* TABLE ROW HOVER */
+tr:hover{
+    background:#f9fafb;
+}
+
+/* ACTION LINKS */
+a{
+    text-decoration:none;
+}
+
+a.edit{
+    color:#2563eb;
+    margin-right:10px;
+}
+
+a.delete{
+    color:#ef4444;
+}
+
+/* BACK LINK */
+.back{
+    display:block;
+    margin-top:20px;
+    color:#555;
+}
